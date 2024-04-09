@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 0, 45, 177),
+        backgroundColor: Color.fromARGB(255, 0, 44, 177),
         leading: IconButton(
           icon: Icon(Icons.home),
           onPressed: () {
@@ -150,7 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 300,
               decoration: BoxDecoration(
                 color:
-                    Color.fromARGB(255, 0, 45, 177), // Bottom rectangle color
+                    Color.fromARGB(255, 0, 44, 177), // Bottom rectangle color
                 border: Border.all(
                     color: const Color.fromARGB(255, 105, 105, 105), width: 2),
                 borderRadius: BorderRadius.circular(0),
